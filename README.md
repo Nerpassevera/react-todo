@@ -1,8 +1,25 @@
-# React + Vite
+# Todo App
+This small application is a part of a Code The Dream React Course.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Lesson 1
 
-Currently, two official plugins are available:
+### Topics covered
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Topics:
+
+ React Fundamentals (setup of a create-react-app)
+ * Hello React
+ * Requirements
+ * Project Setup 
+ * Project Structure
+ * Npm Scripts
+ * Meet The React Component
+ * React JSX
+ * Linting With ESLint (Optional)
+ * Lists In React
+
+### The Road To React Conspect (pages 0 through 37)
+ / Here will be some conspect from The Road To React book we've read this week /
+
+### Assignment
+[Lesson 1.1 Assignment](https://github.com/Code-the-Dream-School/react/wiki/Lesson-1.1)
