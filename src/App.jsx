@@ -1,6 +1,8 @@
 // import React from "react";
 import "./App.css";
-import WrapTheList from "./WrapTheList";
+// import WrapTheList from "./WrapTheList";
+import TodoList from "./TodoList";
+import AddTodoForm from "./AddTodoForm";
 
 const todoList = [
   {
@@ -17,21 +19,16 @@ const todoList = [
   },
 ];
 
-/* // This is the initial implementation of the function we were expected to write for the assessment.
-const wrapTheList = (list) => {
-  return list.map((listItem) => {
-    return (
-      <li key={listItem.id}> {listItem.title} </li>
-    );
-  });
-}; */
 
 function App() {
   return (
     <>
       <h1>Todo List</h1>
-      {/* This is a component I imagined and decided to implement. */}
-      <WrapTheList list={todoList} mainTagName = 'ul'/>
+      <TodoList content={todoList}></TodoList>
+      <AddTodoForm/>
+
+      {/* This is a component I imagined and decided to implement.
+      <WrapTheList list={todoList} mainTagName = 'ul'/> */}
     </>
   );
 
