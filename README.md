@@ -1,22 +1,22 @@
 # Todo App
 This small application is a part of a Code The Dream React Course.
 
-## Lesson 4
+## Lesson 5
 
 ### Topics covered
 
 #### Topics:
 
-Lifting State And Props Handling:
-  * Lifting State
-  * Controlled Components
-  * Props handling
+Hooks And Fragments:
+  * Side-effects
+  * Custom Hooks
+  * Fragments
 
-### The Road To React Conspect (pages 64 through 82)
+### The Road To React Conspect (pages 83 through 93)
  / Here will be some conspect from The Road To React book we've read this week /
 
-### Lesson 1.4 Instructions
-[Lesson 1.4 Instructions](https://learn.codethedream.org/react-fundamentals-props-state-and-handlers/)
+### Lesson 1.5 Instructions
+[Lesson 1.5 Instructions](https://learn.codethedream.org/react-fundamentals-hooks-and-fragments/)
 
 ### Assignment
-[Lesson 1.4 Assignment](https://github.com/Code-the-Dream-School/react/wiki/Lesson-1.4)
+[Lesson 1.5 Assignment](https://github.com/Code-the-Dream-School/react/wiki/Lesson-1.5)
