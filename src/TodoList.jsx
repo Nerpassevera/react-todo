@@ -1,8 +1,11 @@
-export default function TodoList(list) {
+/* eslint-disable react/prop-types */
+import TodoListItem from './TodoListItem';
+
+export default function TodoList({ content }) {
   return (
     <ul>
-      {list.content.map((listItem) => {
-        return <li key={listItem.id}> {listItem.title} </li>;
+      {content.map((listItem) => {
+        return <TodoListItem title={listItem.title} key={listItem.id}/>;
       })}
     </ul>
   );
