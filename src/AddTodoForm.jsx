@@ -16,17 +16,15 @@ export default function AddTodoForm({ onAddTodo }) {
       title: todoTitle,
       id: Date.now()
     });
-    setTodoTitle("");
+    document.getElementById('titleForm').reset();
   }
 
 
   return (
-    <form onSubmit={handleAddTodo} onChange={handleTitleChange}>
+    <form id="titleForm" onSubmit={handleAddTodo} onChange={handleTitleChange}>
       <label htmlFor="todoTitle">Title</label>
       <input
         id="todoTitle"
-        value={todoTitle}
-        onChange={(e) => setTodoTitle(e.target.value)}
         placeholder="Type in todo to add to the list"
       />
       <button>Add</button>
