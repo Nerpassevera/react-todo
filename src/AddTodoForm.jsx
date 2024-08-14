@@ -24,6 +24,7 @@ export default function AddTodoForm({ onAddTodo }) {
       <InputWithLabel placeholder="Type in todo to add to the list">
         Title
       </InputWithLabel>
+
       <button>Add</button>
     </form>
   );
