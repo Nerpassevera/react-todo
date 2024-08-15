@@ -1,12 +1,23 @@
 /* eslint-disable react/prop-types */
-import TodoListItem from './TodoListItem';
+import TodoListItem from "./TodoListItem";
 
-export default function TodoList({ content }) {
-  return (
-    <ul>
-      {content.map((listItem) => {
-        return <TodoListItem title={listItem.title} key={listItem.id}/>;
-      })}
-    </ul>
-  );
+export default function TodoList({ content, onRemoveTodo }) {
+  if (content) {
+    return (
+      <ul>
+        {content.map((listItem) => {
+          return (
+            <TodoListItem
+              title={listItem.title}
+              id={listItem.id}
+              key={listItem.id}
+              onRemoveTodo={onRemoveTodo}
+            />
+          );
+        })}
+      </ul>
+    );
+  } else {
+    return null;
+  }
 }
