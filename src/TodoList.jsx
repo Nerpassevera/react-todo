@@ -2,7 +2,10 @@
 import TodoListItem from "./TodoListItem";
 
 export default function TodoList({ content, onRemoveTodo }) {
-  if (content) {
+
+
+  if (content !== null) {
+
     return (
       <ul>
         {content.map((listItem) => {
